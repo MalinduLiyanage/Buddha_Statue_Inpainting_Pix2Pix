@@ -151,3 +151,76 @@
   </tr>
 </table>
 
+<h3>Model Results</h3>
+<img src="https://github.com/user-attachments/assets/1340d57f-7464-42cc-a5b6-784300a9837a">
+<table>
+    <tr>
+        <th>Model Loss</th>
+        <th>Score</th>
+    </tr>
+    <tr>
+        <th>GAN Loss (BCE)</th>
+        <td>1.8615</td>
+    </tr>
+    <tr>
+        <th>L1 Loss (MAE)</th>
+        <td>0.0233</td>
+    </tr>
+    <tr>
+        <th>SSIM Loss</th>
+        <td>0.1093</td>
+    </tr>
+    <tr>
+        <th>Discriminator Loss</th>
+        <td>2.6129</td>
+    </tr>
+</table>
+
+<h2>Results for Test Cases</h2>
+<img src="https://github.com/user-attachments/assets/00ee56cc-3a0c-40f4-959c-61bcdf317bf7">
+<img src="https://github.com/user-attachments/assets/213623cc-3282-446d-85ca-69d054730b4e">
+<img src="https://github.com/user-attachments/assets/e70bc308-d376-431f-85ed-05c1f99c4f47">
+<img src="https://github.com/user-attachments/assets/df495bbf-c887-4aaf-8dec-dac1d50a749f">
+
+<h2>Evaluation Metrics for Test Cases</h2>
+
+<table>
+    <tr>
+        <th>Case Number</th>
+        <th>Mean Absolute Error (MAE)</th>
+        <th>Structural Similarity Index Measure (SSIM)</th>
+    </tr>
+    <tr>
+        <td>01</td>
+        <td>0.024844</td>
+        <td>0.923690</td>
+    </tr>
+    <tr>
+        <td>02</td>
+        <td>0.017660</td>
+        <td>0.943401</td>
+    </tr>
+    <tr>
+        <td>03</td>
+        <td>0.040716</td>
+        <td>0.913265</td>
+    </tr>
+    <tr>
+        <td>04</td>
+        <td>0.023242</td>
+        <td>0.890602</td>
+    </tr>
+</table>
+
+<h2>Overall Model Evaluation</h2>
+
+<table>
+    <tr>
+        <th>Average Mean Absolute Error (MAE)</th>
+        <td>0.026615</td>
+    </tr>
+    <tr>
+        <th>Average Structural Similarity Index Measure (SSIM)</th>
+        <td>0.917740</td>
+    </tr>
+</table>
