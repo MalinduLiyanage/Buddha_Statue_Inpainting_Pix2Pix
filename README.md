@@ -112,3 +112,42 @@
     <td>Binary Cross-Entropy.</td>
   </tr>
 </table>
+
+<h3>Other Model Details</h3>
+<table border="1">
+  <tr>
+    <th>Category</th>
+    <th>Details</th>
+  </tr>
+  <tr>
+    <td><strong>Input Image Dimensions</strong></td>
+    <td>256×256×3</td>
+  </tr>
+  <tr>
+    <td><strong>Batch Size</strong></td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td><strong>Image Preprocessing</strong></td>
+    <td>
+      <ul>
+        <li>Normalized to [-1, 1].</li>
+        <li>Random jittering (resize, random crop to 256×256).</li>
+        <li>Random horizontal flip (50% chance).</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Platform</strong></td>
+    <td>Google Colab with T4 GPU enabled.</td>
+  </tr>
+  <tr>
+    <td><strong>Checkpoints</strong></td>
+    <td>Stored in <code>./training_checkpoints</code>. Saved every 5000 steps.</td>
+  </tr>
+  <tr>
+    <td><strong>Steps</strong></td>
+    <td>Training configured for 40,000 steps.</td>
+  </tr>
+</table>
+
